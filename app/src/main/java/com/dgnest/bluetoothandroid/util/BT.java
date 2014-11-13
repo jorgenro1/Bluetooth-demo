@@ -13,6 +13,8 @@ import java.util.Set;
 
 public class BT {
 
+    // agrege nueva linea
+
     BluetoothAdapter mBluetoothAdapter;
 
     public BT(Context context) {
