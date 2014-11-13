@@ -8,10 +8,29 @@
         android:id="@+id/btnGetBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Obtener Dispositivos apareados"/>
+        android:text="Obtener Dispositivos apareados" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etMsg"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar dato" />
+    </LinearLayout>
+
 
     <ListView
         android:id="@+id/lvBt"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 </LinearLayout>

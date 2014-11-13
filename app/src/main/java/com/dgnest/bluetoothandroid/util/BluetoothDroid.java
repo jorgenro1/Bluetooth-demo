@@ -108,6 +108,8 @@ public class BluetoothDroid {
 
         mInStream = tmpIn;
         mOutStream = tmpOut;
+
+        mLog("Conected");
     }
 
     public Boolean isBTConected() {
@@ -120,9 +122,9 @@ public class BluetoothDroid {
                 try {
                     mOutStream.write(letra);
 
-                    mLog("Sending = " + msg);
+                    mLog("Sending = " + letra);
                 } catch (IOException e) {
-                    mLog("Error sending = " + msg);
+                    mLog("Error sending = " + letra);
                     return false;
                 }
         } else {
